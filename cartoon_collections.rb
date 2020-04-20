@@ -16,8 +16,8 @@ end
   # Your code here
 
 
-def long_planeteer_calls# code an argument here
- arr = []
+def long_planeteer_calls(arr# code an argument here
+ arr.any?
  if arr.length < 4
    false
   else 
