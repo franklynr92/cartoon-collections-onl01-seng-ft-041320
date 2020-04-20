@@ -16,8 +16,11 @@ end
   # Your code here
 
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+def long_planeteer_calls(arr)# code an argument here
+ if arr.length < 4
+   false
+  else 
+    true# Your code here
 end
 
 def find_the_cheese# code an argument here
