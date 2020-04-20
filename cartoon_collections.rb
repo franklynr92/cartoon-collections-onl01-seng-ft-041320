@@ -17,11 +17,7 @@ end
 
 
 def long_planeteer_calls(arr# code an argument here
- arr.any?
- if arr.length < 4
-   false
-  else 
-    true# Your code here
+ arr.any? { |call| call.length > 4 }# Your code here
 end
 
 def find_the_cheese# code an argument here
