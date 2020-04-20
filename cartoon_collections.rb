@@ -1,10 +1,20 @@
-def roll_call_dwarves# code an argument here
-  # Your code here
+def roll_call_dwarves(arr)# code an argument here
+
+
+counter = 1
+arr.each do |a|
+  puts "#{counter}. #{a}"
+  counter += 1
+end
 end
 
-def summon_captain_planet# code an argument here
-  # Your code here
+def summon_captain_planet(arr)# code an argument here
+  
+  arr.map {|a| puts a.capitalize}
+ 
 end
+  # Your code here
+
 
 def long_planeteer_calls# code an argument here
   # Your code here
